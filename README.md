@@ -24,6 +24,8 @@
     <a target="_blank" href="https://colab.research.google.com/#create=true"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>
   </td>
 </table>
+<br clear="left">
+
 **このレポジトリはGoogle Colaboratoryで動作検証しています**
 
 ### Mount
