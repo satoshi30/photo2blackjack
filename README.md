@@ -5,9 +5,9 @@
 <br clear="left">
 </p>
 
-- GANの⽣成モデルを活⽤して、**実写真をアニメーション**へ変換する︕という試みを行ってみました。
-- 著作権の関係で一般で出版されている著作物が使用できないため、**二次利用がフリー化されている「ブラックジャックによろしく」（作者：佐藤秀峰）**を利用し[（リンク）](https://densho810.com/free/)、**本作の主人公・斉藤英二風の画像生成**を行いました
-- 課題設定の背景や、結果・考察などはこちらのスライドにまとめております。[（リンク）]()
+- GANの⽣成モデルを活⽤して、`実写真をアニメーション`へ変換する︕という試みを行ってみました。
+- 著作権の関係で一般で出版されている著作物が使用できないため、`二次利用がフリー化されている「ブラックジャックによろしく」（作者：佐藤秀峰）`を使用し[（リンク）](https://densho810.com/free/)、`本作の主人公・斉藤英二風の画像生成`を行いました
+- 課題設定の背景や、結果・考察などのスライドはこちらにまとめております。[（リンク）](https://github.com/satoshi30/diveintocode-ml/tree/master/Sprint/Term3_EngineerProject/Sprint26)
 
 <img src="./image/data_process/0001.png" width="100" height="100" align="left">
 <img src="./image/result/test1.png" width="100" height="100" align="left">
@@ -42,6 +42,11 @@ drive.mount("/content/drive")
 git clone https://github.com/satoshi30/photo2blackjack.git
 cd ./photo2blackjack
 ```
+
+### Download
+[GoogleDrive](https://drive.google.com/file/d/1-h46GzpkaO4IjqPpqb79U55nE7rRYpd6/view?usp=sharing)
+- 学習済みの重みをダウンロードして、`models`のディレクトリへ保存してください
+
 ### Requirements
 ```
 pip install tensorflow==1.14
