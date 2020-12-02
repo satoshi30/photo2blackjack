@@ -21,7 +21,7 @@ class Photo2Cartoon:
         self.net = ResnetGenerator(ngf=32, img_size=256, light=True).to(self.device)
 
         assert os.path.exists('./models/photo2blackjack_weights.pt'), "[Step1: load weights] Can not find 'photo2blackjack_weights.pt' in folder 'models!!!'"
-        params = torch.load('/content/drive/MyDrive/photo2blackjack_local/experiment/train-size256-ch32-True-lr1e-05-adv1-cyc50-id1-identity10-cam1000/photo2blackjack/model/photo2blackjack_params_0400000.pt', map_location=self.device)
+        params = torch.load('./models/photo2blackjack_weights.pt', map_location=self.device)
         self.net.load_state_dict(params['genA2B'])
         print('[Step1: load weights] success!')
 
